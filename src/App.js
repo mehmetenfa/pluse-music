@@ -1,10 +1,20 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Layout } from "./components/layout/Layout";
 import { Home } from "./router";
 
 function App() {
   return (
     <>
-      <Home />
+      <Router>
+        <Routes
+          path="/"
+          element={
+            <Layout>
+              <Home />
+            </Layout>
+          }
+        ></Routes>
+      </Router>
     </>
   );
 }
