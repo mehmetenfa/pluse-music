@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import { Browse, LayoutSidebar } from "../router";
 
-const Browser = () => {
+export const Browser = () => {
   return (
-    <div>Browser</div>
-  )
-}
-
-export default Browser
+    <>
+      <LayoutSidebar>
+        <Browse />
+      </LayoutSidebar>
+    </>
+  );
+};

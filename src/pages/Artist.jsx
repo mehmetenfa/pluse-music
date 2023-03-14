@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import { Artists, LayoutSidebar } from "../router";
 
-const Artist = () => {
+export const Artist = () => {
   return (
-    <div>Artist</div>
-  )
-}
-
-export default Artist
+    <>
+      <LayoutSidebar>
+        <Artists />
+      </LayoutSidebar>
+    </>
+  );
+};
