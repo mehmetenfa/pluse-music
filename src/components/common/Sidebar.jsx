@@ -20,7 +20,7 @@ export const Sidebar = () => {
 
         <div className="flex justify-between">
           <div className="bg-secondary text-white flex center px-2 py-0.5 rounded-md">
-            <div className="">
+            <div>
               <AiFillApple size={30} />
             </div>
             <div className="">
@@ -29,7 +29,7 @@ export const Sidebar = () => {
             </div>
           </div>
           <div className="bg-secondary text-white flex center px-2 py-0.5 rounded-md">
-            <div className="">
+            <div>
               <IoPlaySharp size={30} />
             </div>
             <div className="">
