@@ -31,7 +31,21 @@ export const Header = () => {
             ))}
           </ul>
         </div>
-        <div></div>
+
+        {/* profile */}
+        <div className="profile flex items-center">
+          <AiOutlineSearch size={22} />
+          <button className="bg-primary px-6 py-1.5 text-white rounded-full mx-3">
+            Upload
+          </button>
+          <div className="img w-10 h-10 rounded-full">
+            <img
+              src={profile}
+              alt="profile"
+              className="img w-10 h-10 bg-red-300 rounded-full object-cover cursor-pointer"
+            />
+          </div>
+        </div>
       </div>
     </header>
   );
