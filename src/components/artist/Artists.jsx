@@ -1,4 +1,3 @@
-import React from "react";
 import { browse } from "../assets/data/data";
 import { Card_lg } from "../common/Card_lg";
 
